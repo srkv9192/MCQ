@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 const port = 3000;
 
 app.listen(port, () => {
-  console.log(`MCQ app listening at http://localhost:${port}`);
+  console.log(`MCQ app listening at http://localhost:${port}/index.html`);
 });
 
 // Add more routes and logic here
